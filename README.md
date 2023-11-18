@@ -7,7 +7,4 @@
 5. Установка зависимостей: pip install -r .\requirements.txt
 6. Запустить скрипт: ![img.png](img/Снимок_2.PNG)
 
-
-![img.png](img/Снимок_3.PNG)
-
 ![img.png](img/Снимок_4.PNG)
