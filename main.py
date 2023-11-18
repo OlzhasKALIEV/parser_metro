@@ -79,7 +79,7 @@ for product_link in product_links:
         break
 csv_file = 'output.csv'
 
-with open(csv_file, 'w', newline='', encoding='cp1251') as file:
+with open(csv_file, 'w', newline='', encoding='utf-8') as file:
     writer = csv.DictWriter(file, fieldnames=['id', 'name', 'url', 'brand', 'price'])
     writer.writeheader()
     writer.writerows(records)
